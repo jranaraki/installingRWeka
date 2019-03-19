@@ -30,5 +30,8 @@ If the output values are less the ones in the following, go to **Step 4**, other
 - OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
 
 ## Step 4 
-RWeka requires at least Java version 8, 
+RWeka requires at least Java version 8, copy and paste the following commands into **terminal**, one at a time, to install the required version
+ - sudo add-apt-repository ppa:openjdk-r/ppa
+ - sudo apt-get update
+ - sudo apt-get install openjdk-8-jdk
 
