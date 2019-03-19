@@ -1,4 +1,4 @@
-# RWeka
+# Installing RWeka
 This is a step-by-step manual for installing RWeka (Version 0.4-40) for R (Version 3.5.3) in Ubuntu 14.04. 
 
 ## Requirements
