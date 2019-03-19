@@ -13,46 +13,57 @@ Open terminal using either (Ctrl + Alt + t) or *Search* and type in **terminal**
 ## Step 1
 Copy-and-paste the following commands into **terminal**, one at a time, and then hit *Enter*
 ```
- sudo apt-get install -y default-jre
- sudo apt-get install -y default-jdk
- sudo R CMD javareconf
+sudo apt-get install -y default-jre
+sudo apt-get install -y default-jdk
+sudo R CMD javareconf
 ```
  
 ## Step 2
 Open RStudio or R and copy-and-paste the following command into console and hit *Enter*
- - install.packages("rJava")
+```
+install.packages("rJava")
+```
  
 ## Step 3
 Copy-and-paste the following command to check the current version of Java on your machine
- - java -version
+```
+java -version
+```
  
 If the output values are less the ones in the following, go to **Step 4**, otherwise, go to **Step 5** 
-- openjdk version "1.8.0_171"
-- OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2~14.04-b11)
-- OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
+```
+openjdk version "1.8.0_171"
+OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2~14.04-b11)
+OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
+```
 
 ## Step 4 
 RWeka requires at least Java version 8, copy-and-paste the following commands into **terminal**, one at a time, to install the required version
- - sudo add-apt-repository ppa:openjdk-r/ppa
- - sudo apt-get update
- - sudo apt-get install openjdk-8-jdk
-
+```
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+```
 In order to let R use the correct version of Java, copy-and-paste the following commands into **terminal**, one at a time, and hit *Enter* to change the default version of Java
- - sudo update-alternatives --config java
- - Choose openjdk-8-jdk
- - sudo update-alternatives --config javac
- - Choose openjdk-8-jdk
+```
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+```
+**Note:** For both choose openjdk-8-jdk
  
 ## Step 5
 Now the system is ready to install the last set of requirements through **terminal**. Copy-and-paste the following commands into **terminal**, one at a time, and hit *Enter*
- - sudo apt-get install r-cran-rjava
- - sudo apt-get install libgdal-dev libproj-dev
- - R CMD javareconf -e
+```
+sudo apt-get install r-cran-rjava
+sudo apt-get install libgdal-dev libproj-dev
+R CMD javareconf -e
+``` 
  
 ## Step 6
 Now, go back to RStudio or R and copy-and-paste the following command into console and hit *Enter*
- - install.packages("RWeka")
-
+```
+install.packages("RWeka")
+```
 
 # More info
 Check the following references for further information
