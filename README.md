@@ -25,9 +25,9 @@ Copy and paste the following command to check the current version of Java on you
  - java -version
  
 If the output values are less the ones in the following, go to **Step 4**, otherwise, go to **Step 5** 
-  openjdk version "1.8.0_171"
-  OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2~14.04-b11)
-  OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
+- openjdk version "1.8.0_171"
+- OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-2~14.04-b11)
+- OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
 
 ## Step 4 
 RWeka requires at least Java version 8, 
