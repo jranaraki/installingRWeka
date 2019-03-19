@@ -12,9 +12,11 @@ Open terminal using either (Ctrl + Alt + t) or *Search* and type in **terminal**
 
 ## Step 1
 Copy-and-paste the following commands into **terminal**, one at a time, and then hit *Enter*
- - sudo apt-get install -y default-jre
- - sudo apt-get install -y default-jdk
- - sudo R CMD javareconf
+```
+ sudo apt-get install -y default-jre
+ sudo apt-get install -y default-jdk
+ sudo R CMD javareconf
+```
  
 ## Step 2
 Open RStudio or R and copy-and-paste the following command into console and hit *Enter*
