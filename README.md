@@ -54,7 +54,7 @@ Now, go back to RStudio or R and copy-and-paste the following command into conso
 
 # More info
 Check the following references for further information
-(test)[https://askubuntu.com/questions/623578/installing-blas-and-lapack-packages]
+[est](https://askubuntu.com/questions/623578/installing-blas-and-lapack-packages)
 [2] https://docs.datastax.com/en/cassandra/3.0/cassandra/install/installOpenJdkDeb.html
 [3] https://www.ibm.com/support/knowledgecenter/en/SSPT3X_3.0.0/com.ibm.swg.im.infosphere.biginsights.install.doc/doc/install_install_r.html
 [4] https://github.com/hannarud/r-best-practices/wiki/Installing-RJava-(Ubuntu)
