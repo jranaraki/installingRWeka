@@ -1,5 +1,5 @@
 # Installing RWeka
-This is a step-by-step manual for installing RWeka (Version 0.4-40) for R (Version 3.5.3) in Ubuntu 14.04 for beginners.
+This is a step-by-step manual for installing [RWeka](https://cran.r-project.org/web/packages/RWeka/index.html) (Version 0.4-40) for [R](https://cran.r-project.org/src/base/R-3/) (Version 3.5.3) in [Ubuntu 14.04](http://releases.ubuntu.com/14.04/) for beginners.
 
 ## Requirements
 Here is a list of requirements:
