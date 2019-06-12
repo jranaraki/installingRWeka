@@ -58,7 +58,9 @@ sudo apt-get install r-cran-rjava
 sudo apt-get install libgdal-dev libproj-dev
 R CMD javareconf -e
 ``` 
- 
+**Note:** If the Java version is still outdated after running ```R CMD javareconf -e```, then run the following command and hit *Enter*
+```sudo R CMD javareconf JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64```
+
 ## Step 6
 Now, go back to RStudio or R and copy-and-paste the following command into console and hit *Enter*
 ```
@@ -71,3 +73,4 @@ Check the following references for further information
  - [Installing OpenJDK on Debian-based systems](https://docs.datastax.com/en/cassandra/3.0/cassandra/install/installOpenJdkDeb.html)
  - [Installing R](https://www.ibm.com/support/knowledgecenter/en/SSPT3X_3.0.0/com.ibm.swg.im.infosphere.biginsights.install.doc/doc/install_install_r.html)
  - [Installing RJava (Ubuntu)](https://github.com/hannarud/r-best-practices/wiki/Installing-RJava-(Ubuntu))
+ - [rJava is not picking up the correct Java version](https://stackoverflow.com/questions/28133360/rjava-is-not-picking-up-the-correct-java-version)
