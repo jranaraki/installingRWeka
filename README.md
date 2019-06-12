@@ -58,8 +58,8 @@ sudo apt-get install r-cran-rjava
 sudo apt-get install libgdal-dev libproj-dev
 R CMD javareconf -e
 ``` 
-**Note:** If the Java version is still outdated after running ```R CMD javareconf -e```, then run the following command and hit *Enter*
-```sudo R CMD javareconf JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64```
+**Note:** If the Java version is still outdated after running ```R CMD javareconf -e```, then run 
+```sudo R CMD javareconf JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64``` and hit *Enter*
 
 ## Step 6
 Now, go back to RStudio or R and copy-and-paste the following command into console and hit *Enter*
